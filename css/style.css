@@ -23,6 +23,7 @@
 
 .link, .logo, .text {
   color: white;
+  text-decoration: none;
 }
 
 ul li a {
@@ -97,7 +98,7 @@ img {
 .imgs-hol {
   width: 150px;
   height: 150px;
-  border: 2px #3882F6 solid;
+  border: 3px #3882F6 solid;
   border-radius: 10px;
 }
 
@@ -146,6 +147,7 @@ img {
 .credit {
   font-weight: 1000;
   width: 200px;
+  text-decoration: line-through;
 }
 
 .inside-quote {
@@ -153,4 +155,45 @@ img {
   justify-content: flex-end;
   align-items: flex-end;
   flex-wrap: wrap;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: center;
+  flex-shrink: 1;
+  background-color: #3882F6;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.bottom-container .signup {
+  border: 2px solid white;
+}
+
+.bot-button {
+
+}
+
+.bot-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  margin-right: 50px;
+}
+.empty-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.copy-right {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 30px;
 }
